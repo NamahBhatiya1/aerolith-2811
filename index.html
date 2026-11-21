@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#34401a">
+<meta name="description" content="Aerolith turns quarry dust into bricks and explores locking CO₂ into stable carbonate.">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<title>Aerolith: quarry dust, put to work</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem('aerolith-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="index.html">Aerolith</a>
+    <nav aria-label="Pages" id="sections"><ul>
+      <li><a href="problem.html">Problem</a></li>
+      <li><a href="science.html">Science</a></li>
+      <li><a href="process.html">Process</a></li>
+      <li><a href="carbon.html">Carbon</a></li>
+      <li><a href="testing.html">Testing</a></li>
+      <li><a href="innovation.html">Innovation</a></li>
+      <li><a href="limits.html">Limits</a></li>
+      <li><a class="cta" href="team.html">Team</a></li>
+      <li class="m-only"><button id="theme2" type="button">Light / dark</button></li>
+    </ul></nav>
+    <button id="menu" type="button" aria-expanded="false" aria-controls="sections">Menu</button>
+    <button id="theme" type="button" aria-label="Switch between light and dark theme">◐</button>
+  </div>
+</header>
+<main>
+<section class="hero" id="top">
+  <canvas id="dust" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <h1>Aerolith</h1>
+    <p class="tagline">Quarry dust, turned into bricks.</p>
+    <p>Quarries throw dust and CO₂ into the air. Our science project asks: what if we caught both, turned the dust into bricks and locked the CO₂ into stable carbonate?</p>
+    <div class="btns"><a class="btn primary" href="process.html#process">See how it works</a><button class="btn sun" id="pulse" type="button">Pulse the dust</button><a class="btn ghost" href="team.html">Meet the team</a></div>
+    <div class="ctl"><label for="pw">Ultrasound power</label><input id="pw" type="range" min="0" max="100" value="70"><output id="pwv" for="pw">70%</output></div>
+  </div>
+  <div class="phase"><span id="phase" role="status">Ultrasound off: dust is drifting</span><span id="meter"></span><span>Click or tap to send a pulse. Move your cursor to scatter dust.</span></div>
+</section>
+<div class="strata" aria-hidden="true"></div>
+<section class="sec" id="solution">
+  <div class="wrap dia">
+    <h2>One waste stream, two pathways</h2>
+    <p>Aerolith starts from quarry waste and splits it into two pathways that share one goal. Dust collected in Pathway B can also be the raw material for Pathway A.</p>
+    <div class="eq obj"><b>Quarry waste</b><p>Collected material</p></div>
+    <div class="tracks">
+      <div class="track"><h3>Pathway A: dust into bricks</h3><ul class="flow v"><li>Quarry dust</li><li>Geopolymerisation</li><li>MICP treatment</li><li>Eco-friendly bricks</li></ul></div>
+      <div class="track air"><h3>Pathway B: airborne dust and CO₂</h3><ul class="flow v"><li>Airborne dust</li><li>Acoustic agglomeration</li><li>Mineral activation</li><li>CO₂ carbonation</li></ul></div>
+    </div>
+    <p class="info" id="node-info" role="status">Select any step in either pathway to see what happens there.</p>
+    <div class="eq obj"><b>One sustainable objective</b><p>Waste utilisation and environmental improvement</p></div>
+  </div>
+</section>
+<div class="strata" aria-hidden="true"></div>
+<section class="sec alt" id="explore"><div class="wrap"><h2>Explore the project</h2><p>Each page covers one part of Aerolith.</p><div class="qs"><div><h3>The problem</h3><p>Quarry dust and CO₂ in the air, and why it matters.</p><a href="problem.html">Open page →</a></div><div><h3>Scientific foundations</h3><p>Four techniques, each explained with inputs, outputs and purpose.</p><a href="science.html">Open page →</a></div><div><h3>How it works</h3><p>The process from dust to bricks and captured CO₂.</p><a href="process.html">Open page →</a></div><div><h3>Carbon capture</h3><p>The proposed five-step route from CO₂ to stable carbonate.</p><a href="carbon.html">Open page →</a></div><div><h3>Experimental testing</h3><p>What we plan to measure and what would count as success.</p><a href="testing.html">Open page →</a></div><div><h3>Innovation and impact</h3><p>What makes Aerolith different, and the UAE’s goals.</p><a href="innovation.html">Open page →</a></div><div><h3>Limits and conclusion</h3><p>What could go wrong, and why Aerolith still matters.</p><a href="limits.html">Open page →</a></div><div><h3>Meet the team</h3><p>The people behind Aerolith.</p><a href="team.html">Open page →</a></div></div></div></section>
+
+<div class="wrap pager"><a class="btn primary next" href="problem.html">Start with the problem →</a></div>
+</main>
+<footer>
+  <div class="wrap">
+    <p>Aerolith is a science project on quarry air pollution. This is a concept: the methods described are ideas the team is exploring, not proven results.</p>
+    <div class="btns"><a class="btn" href="team.html">Meet the team</a><a class="btn" href="index.html">Project home</a></div>
+  </div>
+</footer><script src="assets/app.js"></script>
+</body>
+</html>

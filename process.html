@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#34401a">
+<meta name="description" content="From dust in the air to bricks and captured CO₂, step by step.">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<title>How it works | Aerolith</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem('aerolith-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="index.html">Aerolith</a>
+    <nav aria-label="Pages" id="sections"><ul>
+      <li><a href="problem.html">Problem</a></li>
+      <li><a href="science.html">Science</a></li>
+      <li><a href="process.html" class="active" aria-current="page">Process</a></li>
+      <li><a href="carbon.html">Carbon</a></li>
+      <li><a href="testing.html">Testing</a></li>
+      <li><a href="innovation.html">Innovation</a></li>
+      <li><a href="limits.html">Limits</a></li>
+      <li><a class="cta" href="team.html">Team</a></li>
+      <li class="m-only"><button id="theme2" type="button">Light / dark</button></li>
+    </ul></nav>
+    <button id="menu" type="button" aria-expanded="false" aria-controls="sections">Menu</button>
+    <button id="theme" type="button" aria-label="Switch between light and dark theme">◐</button>
+  </div>
+</header>
+<main>
+<div class="team-hero"><div class="wrap"><h1>How it works</h1><p>From dust in the air to bricks and captured CO₂, step by step.</p></div></div>
+<div class="strata" aria-hidden="true"></div>
+<section class="sec alt" id="build">
+  <div class="wrap">
+    <h2>Build a brick as you scroll</h2>
+    <p>Follow one batch of quarry dust from the air to a finished brick. Use the dots to jump between stages.</p>
+    <div class="story" id="story" data-stage="0">
+      <div class="stage">
+        <div class="brick" aria-hidden="true"></div>
+        <div class="stage-name" id="stage-name" aria-live="polite">Collected dust</div>
+        <div class="dots" role="group" aria-label="Brick stages"><button type="button" aria-label="Stage 1"></button><button type="button" aria-label="Stage 2"></button><button type="button" aria-label="Stage 3"></button><button type="button" aria-label="Stage 4"></button><button type="button" aria-label="Stage 5"></button></div>
+      </div>
+      <div class="beats">
+        <div class="beat" data-name="Collected dust"><h3>Dust, collected</h3><p>Acoustic agglomeration clumps fine airborne dust so it can be gathered and separated. The collected quarry dust is the raw material for the bricks.</p></div>
+        <div class="beat" data-name="Geopolymer mix"><h3>Mixed with sodium silicate</h3><p>The dust is mixed with sodium silicate. Geopolymerisation turns the mixture into a binding material.</p></div>
+        <div class="beat" data-name="Moulded brick"><h3>Moulded</h3><p>The binding mixture is shaped in moulds, giving the bricks their form.</p></div>
+        <div class="beat" data-name="Cured brick"><h3>Cured</h3><p>The moulded bricks are cured so the binder can set into a solid block.</p></div>
+        <div class="beat" data-name="MICP-strengthened brick"><h3>Strengthened with MICP</h3><p>Microbially induced calcium carbonate precipitation adds natural calcium carbonate to further strengthen the cured bricks.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sec" id="process">
+  <div class="wrap">
+    <h2>From dusty air to bricks and carbonates</h2>
+    <p>The collected dust feeds both lines below.</p>
+    <ul class="flow">
+      <li>Quarry air with dust and CO₂</li>
+      <li>Acoustic agglomeration</li>
+      <li>Collected dust</li>
+      <li>Bricks and magnesium carbonate</li>
+    </ul>
+    <div class="tracks">
+      <div class="track">
+        <h3>Bricks from dust</h3>
+        <ol class="steps">
+          <li>Mix quarry dust with sodium silicate. Geopolymerisation forms the binder.</li>
+          <li>Mould the mixture into bricks.</li>
+          <li>Cure the bricks.</li>
+          <li>Apply MICP. Natural calcium carbonate forms and further strengthens them.</li>
+        </ol>
+      </div>
+      <div class="track air">
+        <h3>Cleaner air from dust and CO₂</h3>
+        <ol class="steps">
+          <li>Ultrasound waves bring fine airborne dust together by acoustic agglomeration.</li>
+          <li>Collect and separate the larger dust aggregates.</li>
+          <li>Activate the dust mechanically to expose reactive mineral surfaces.</li>
+          <li>Let magnesium oxide react with CO₂ to form stable magnesium carbonate.</li>
+          <li>Separate the carbonates with a filtration system. A metal-organic framework (MOF) is a possible extra to test.</li>
+        </ol>
+      </div>
+    </div>
+    <div class="btns"><a class="btn primary" href="carbon.html#carbon">See the carbon capture steps</a></div>
+  </div>
+</section>
+<div class="wrap pager"><a class="btn" href="science.html">← Scientific foundations</a><a class="btn primary next" href="carbon.html">Carbon capture →</a></div>
+</main>
+<footer>
+  <div class="wrap">
+    <p>Aerolith is a science project on quarry air pollution. This is a concept: the methods described are ideas the team is exploring, not proven results.</p>
+    <div class="btns"><a class="btn" href="team.html">Meet the team</a><a class="btn" href="index.html">Project home</a></div>
+  </div>
+</footer><script src="assets/app.js"></script>
+</body>
+</html>

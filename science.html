@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#34401a">
+<meta name="description" content="The four techniques behind Aerolith, and how each one works.">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<title>Scientific foundations | Aerolith</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem('aerolith-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="index.html">Aerolith</a>
+    <nav aria-label="Pages" id="sections"><ul>
+      <li><a href="problem.html">Problem</a></li>
+      <li><a href="science.html" class="active" aria-current="page">Science</a></li>
+      <li><a href="process.html">Process</a></li>
+      <li><a href="carbon.html">Carbon</a></li>
+      <li><a href="testing.html">Testing</a></li>
+      <li><a href="innovation.html">Innovation</a></li>
+      <li><a href="limits.html">Limits</a></li>
+      <li><a class="cta" href="team.html">Team</a></li>
+      <li class="m-only"><button id="theme2" type="button">Light / dark</button></li>
+    </ul></nav>
+    <button id="menu" type="button" aria-expanded="false" aria-controls="sections">Menu</button>
+    <button id="theme" type="button" aria-label="Switch between light and dark theme">◐</button>
+  </div>
+</header>
+<main>
+<div class="team-hero"><div class="wrap"><h1>Scientific foundations</h1><p>The four techniques behind Aerolith, and how each one works.</p></div></div>
+<div class="strata" aria-hidden="true"></div>
+<section class="sec alt" id="approach">
+  <div class="wrap">
+    <h2>Four techniques, one loop</h2>
+    <p>Each technique feeds the next, so one waste stream becomes the input for another. Filter by what it is for.</p>
+    <div class="chips" role="group" aria-label="Filter techniques"><button class="chip" type="button" data-f="all" aria-pressed="true">All</button><button class="chip" type="button" data-f="b" aria-pressed="false">Bricks</button><button class="chip" type="button" data-f="a" aria-pressed="false">Clean air</button></div>
+    <div class="rows">
+      <div class="row"><h3>Geopolymerisation</h3><div><p>Quarry dust mixed with sodium silicate forms a binding material. The mixture is moulded and cured into eco-friendly bricks.</p><details><summary>More detail</summary><p>The binder forms by chemical reaction, so the plan is to mould and cure the bricks rather than fire them.</p></details></div><span class="tag b">Bricks</span></div>
+      <div class="row"><h3>MICP treatment</h3><div><p>Microbially induced calcium carbonate precipitation strengthens the cured bricks through natural calcium carbonate formation.</p><details><summary>More detail</summary><p>Microbes help calcium carbonate, the mineral in limestone, form inside the brick. It is a second strengthening step applied after curing.</p></details></div><span class="tag b">Bricks</span></div>
+      <div class="row"><h3>Acoustic agglomeration</h3><div><p>Ultrasound makes fine airborne dust particles clump into larger aggregates that are easier to collect and separate.</p><details><summary>More detail</summary><p>Sound waves make small particles collide and stick together. Larger aggregates are easier to filter or settle out than fine dust.</p></details></div><span class="tag a">Clean air</span></div>
+      <div class="row"><h3>Mechanochemical carbon capture</h3><div><p>Mechanical processing exposes reactive mineral surfaces in the dust so they can react with CO₂ and lock it into stable carbonates.</p><details><summary>More detail</summary><p>Magnesium oxide, where present or added, reacts with CO₂ to form magnesium carbonate. Filtration can then separate the carbonates; a MOF is an untested option.</p></details></div><span class="tag a">Clean air</span></div>
+    </div>
+    <h3 class="sub">How each technique works</h3>
+    <article class="tech"><div><h3>Geopolymerisation</h3><p>Sodium silicate is strongly alkaline. Mixed with quarry dust, it dissolves some of the reactive silica and alumina in the dust’s aluminosilicate minerals. The dissolved silicate and aluminate units then link together into a three-dimensional network of Si–O–Al bonds, with sodium ions balancing the charge. The network sets into a hard binder that holds the remaining grains together, and it cures at low temperature instead of in a kiln.</p><p>How much of the dust is reactive enough depends on its minerals, so this is one of the first things to test.</p></div><div><ul class="mini" aria-label="Geopolymerisation sequence"><li>Dust + sodium silicate</li><li>Dissolution</li><li>Si–O–Al network</li><li>Hard binder</li></ul><dl class="io"><dt>Inputs</dt><dd>Quarry dust, sodium silicate, water</dd><dt>Outputs</dt><dd>A hardened aluminosilicate binder, shaped as a brick</dd><dt>Purpose</dt><dd>Bind dust into a solid brick without firing</dd></dl></div></article>
+    <article class="tech"><div><h3>MICP</h3><p>Sporosarcina pasteurii is a soil bacterium that makes the enzyme urease. Urease breaks urea into ammonium and carbonate ions. Where calcium ions are present, the carbonate combines with them to form calcium carbonate (CaCO₃). The bacterial cells give the crystals places to start growing, so the carbonate forms inside the brick’s pores and cracks, filling them and bridging neighbouring grains.</p><p>Geopolymer is very alkaline and bacteria need a tolerable pH, so we must test whether MICP works on these bricks and when to apply it.</p></div><div><ul class="mini" aria-label="MICP sequence"><li>Bacteria + urea + calcium</li><li>Urease</li><li>Carbonate + calcium</li><li>CaCO₃ in pores</li></ul><dl class="io"><dt>Inputs</dt><dd>Cured brick, S. pasteurii culture, urea, a calcium source</dd><dt>Outputs</dt><dd>Calcium carbonate that fills pores and links grains</dd><dt>Purpose</dt><dd>Strengthen and seal the brick</dd></dl></div></article>
+    <article class="tech"><div><h3>Acoustic agglomeration</h3><p>Intense sound waves make the air, and the particles in it, move back and forth. Small particles follow that motion closely while larger ones lag behind, so particles of different sizes move relative to each other and collide. Colliding particles can stick, and the clusters keep growing. Clusters are larger than the fine dust they began as, so they settle out or are caught in a filter more easily.</p><p>Aerolith uses ultrasound. The best frequency and intensity are still to be found.</p><div class="ctl"><label for="sz">Cluster size</label><input id="sz" type="range" min="1" max="10" value="3"><output id="szv" for="sz"></output></div><p class="info" id="sz-out" role="status"></p></div><div><ul class="mini" aria-label="Acoustic agglomeration sequence"><li>Dusty air + ultrasound</li><li>Collisions</li><li>Clusters</li><li>Easier collection</li></ul><dl class="io"><dt>Inputs</dt><dd>Dust-laden air, ultrasound</dd><dt>Outputs</dt><dd>Larger dust aggregates</dd><dt>Purpose</dt><dd>Collect the fine dust that normally escapes</dd></dl></div></article>
+    <article class="tech"><div><h3>Mechanochemical processing</h3><p>Milling and grinding do more than make powder finer. The impacts crack mineral crystals, expose fresh surfaces and create defects and disordered regions. That raises the surface area and reactivity of the mineral, so it reacts with CO₂ faster and more completely than untreated mineral. In Aerolith this activation step prepares magnesium-bearing minerals for carbonation.</p><p>Milling uses energy, which we must count against the CO₂ captured.</p></div><div><ul class="mini" aria-label="Mechanochemical processing sequence"><li>Collected dust</li><li>Milling</li><li>Fresh reactive surfaces</li><li>Ready for CO₂</li></ul><dl class="io"><dt>Inputs</dt><dd>Collected dust with reactive minerals (or added MgO), mechanical energy</dd><dt>Outputs</dt><dd>Activated mineral powder</dd><dt>Purpose</dt><dd>Prepare minerals for carbonation</dd></dl></div></article>
+  </div>
+</section>
+<div class="wrap pager"><a class="btn" href="problem.html">← The problem</a><a class="btn primary next" href="process.html">How it works →</a></div>
+</main>
+<footer>
+  <div class="wrap">
+    <p>Aerolith is a science project on quarry air pollution. This is a concept: the methods described are ideas the team is exploring, not proven results.</p>
+    <div class="btns"><a class="btn" href="team.html">Meet the team</a><a class="btn" href="index.html">Project home</a></div>
+  </div>
+</footer><script src="assets/app.js"></script>
+</body>
+</html>
