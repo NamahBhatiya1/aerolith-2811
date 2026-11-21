@@ -256,7 +256,7 @@
         if (!el)
             return;
         const ini = (n) => n.split(/\s+/).map((w) => w[0]).join('').slice(0, 2).toUpperCase();
-        el.innerHTML = TEAM.map((m) => `<article class="member"><div class="avatar" style="--c:${m.c}">${m.img ? `<img src="${m.img}" alt="${m.n}">` : ini(m.n)}</div><h3>${m.n}</h3><span class="role">${m.r}</span><p>${m.b}</p></article>`).join('');
+        el.innerHTML = TEAM.map((m) => `<article class="member"><div class="avatar" style="--c:${m.c}">${m.img ? `<img src="${m.img}" alt="${m.n}">` : ini(m.n)}</div><h3>${m.n}</h3><p>${m.b}</p></article>`).join('');
     }
     function initFilter() {
         const chips = Array.from(document.querySelectorAll('.chip'));
