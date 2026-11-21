@@ -237,12 +237,19 @@
         }));
     }
     // EDIT HERE: one entry per teammate. Add img:'photo.jpg' (or a data URI) to show a photo instead of initials.
-    const TEAM = [
+   const TEAM = [
         { n: 'Team Member 1', r: 'Team lead', b: 'Keeps the project moving and ties the four techniques together.', c: '#f6c945' },
         { n: 'Team Member 2', r: 'Brick lab', b: 'Geopolymer mix, moulding and curing.', c: '#b9c98a' },
         { n: 'Team Member 3', r: 'MICP and strength', b: 'Bio-cementation and brick strength testing.', c: '#e0661a' },
         { n: 'Team Member 4', r: 'Acoustics', b: 'Ultrasound dust collection and agglomeration.', c: '#f3ead3' },
         { n: 'Team Member 5', r: 'Carbon capture', b: 'MgO and CO₂ chemistry, and carbonate separation.', c: '#9aab5a' },
+        { n: 'Team Member 6', r: 'Materials', b: 'Sourcing quarry dust, sodium silicate and reactive minerals.', c: '#f6c945' },
+        { n: 'Team Member 7', r: 'Bacterial culture', b: 'Growing and handling Sporosarcina pasteurii safely.', c: '#b9c98a' },
+        { n: 'Team Member 8', r: 'Mechanochemistry', b: 'Milling and activating minerals for carbonation.', c: '#e0661a' },
+        { n: 'Team Member 9', r: 'Testing and data', b: 'Recording measurements and comparing results with controls.', c: '#f3ead3' },
+        { n: 'Team Member 10', r: 'Research', b: 'Literature review and checking the science.', c: '#9aab5a' },
+        { n: 'Team Member 11', r: 'Website and design', b: 'Builds and maintains this website.', c: '#f6c945' },
+        { n: 'Team Member 12', r: 'Presentation', b: 'Poster, slides and presenting Aerolith to others.', c: '#b9c98a' },
     ];
     function initTeam() {
         const el = document.getElementById('crew');
