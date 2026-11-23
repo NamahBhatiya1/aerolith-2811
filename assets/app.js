@@ -249,7 +249,6 @@
         { n: 'Mukul',  b: 'Recording measurements and comparing results with controls.', c: '#f3ead3' },
         { n: 'Zeeshan', b: 'Literature review and checking the science.', c: '#9aab5a' },
         { n: 'Arham',  b: 'Geopolymer mix, moulding and curing.', c: '#b9c98a' }, 
-        { n: 'Aadya', b: 'Poster, slides and presenting Aerolith to others.', c: '#b9c98a' },
     ];
     function initTeam() {
         const el = document.getElementById('crew');
